@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: cferthorney
+  description: Common toolset for Linux/UNIX.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+    - system
