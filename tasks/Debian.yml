@@ -1,2 +1,9 @@
 ---
 # Tasks for Debian
+- name: Update Apt to latest cache and update relevant packages
+  sudo: yes
+  apt: upgrade=yes update_cache=yes
+
+- name: Install screen (Useful tool)
+  sudo: yes
+  apt: name=screen state=present cache_valid_time=3600 update_cache=yes

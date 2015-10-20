@@ -1,2 +1,9 @@
 ---
 # Tasks for RedHat
+- name: Update Apt to latest cache and update relevant packages
+  sudo: yes
+  yum: yum: name=* state=latest
+
+- name: Install screen (Useful tool)
+  sudo: yes
+  yum: name=screen state=present

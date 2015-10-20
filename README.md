@@ -2,7 +2,6 @@ Common Settings
 =========
 
 This role ensures up to date apt-get or yum prior to installing anything else.
-Also ensures non specialist tools such as sudo are installed.
 
 Requirements
 ------------
